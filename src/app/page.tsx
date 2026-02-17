@@ -46,7 +46,7 @@ export default function Home() {
       {/* Footer */}
       <section className="border-t border-white/5 bg-bg-card/50 mt-20 py-12 px-6">
         <div className="max-w-6xl mx-auto text-center text-text-muted">
-          <p>© 2026 Santino Bouvet. Todos los derechos reservados.</p>
+          <p>© 2026 Santino Bouvet.</p>
         </div>
       </section>
     </main>
