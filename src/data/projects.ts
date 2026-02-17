@@ -28,7 +28,7 @@ export const projects : UniversityProject[] = [
         curso: "Sistemas Operativos",
         descripcion: "plataforma distribuida que simula el funcionamiento de un sistema operativo, enfocándose en la planificación de procesos, gestión de memoria virtual y un sistema de archivos persistente. ",
         techStack: ["Express.js" , "React" , "Tailwind" , "Node.js" , "MongoDB" , "Render" , "Vercel"],
-        githubUrl: "https://github.com/Santibouvet/Proyecto-Sistema-Operativo-Distribuido",
+        githubUrl: "https://github.com/Santibouvet/Master-of-Files",
         seCompleto: true
     },
 
