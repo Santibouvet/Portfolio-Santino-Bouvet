@@ -5,5 +5,6 @@ export interface UniversityProject {
   descripcion: string;
   techStack: string[]; // Ej: ["Java", "SQL", "TypeScript"]
   githubUrl: string;
+  frontUrl?: string; // Opcional, por si el proyecto tiene una demo desplegada
   seCompleto: boolean;
 }
