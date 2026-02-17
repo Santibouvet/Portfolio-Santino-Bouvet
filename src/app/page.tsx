@@ -1,5 +1,6 @@
 import { projects } from '@/data/projects';
 import ProjectCard from '@/components/ProjectCard';
+import Conocimientos from '@/components/Conocimientos';
 
 export default function Home() {
   return (
@@ -21,9 +22,15 @@ export default function Home() {
               Ver proyectos
             </a>
             <a 
+              href="#conocimientos" 
+              className="px-6 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
+            >
+              Conocimientos
+            </a>
+            <a 
               href="/CV-Santino-Bouvet.pdf" 
               download="Santino_Bouvet_CV.pdf"
-              className="px-6 py-3 rounded-lg border border-primary text-primary font-semibold hover:bg-primary/10 transition-all duration-300"
+              className="px-6 py-3 rounded-lg border border-white/20 text-text-muted font-semibold hover:bg-white/5 transition-all duration-300"
             >
               Descargar CV
             </a>
@@ -42,6 +49,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* Skills Section */}
+      <Conocimientos />
 
       {/* Footer */}
       <section className="border-t border-white/5 bg-bg-card/50 mt-20 py-12 px-6">

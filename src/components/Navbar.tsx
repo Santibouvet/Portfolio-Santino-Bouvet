@@ -30,6 +30,9 @@ export default function Navbar() {
           <a href="#proyectos" className="text-sm text-text-muted hover:text-white transition-colors duration-300">
             Proyectos
           </a>
+          <a href="#conocimientos" className="text-sm text-text-muted hover:text-white transition-colors duration-300">
+            Conocimientos
+          </a>
           <a 
             href="/CV-Santino-Bouvet.pdf" 
             download="Santino_Bouvet_CV.pdf"
