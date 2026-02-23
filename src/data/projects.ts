@@ -27,7 +27,7 @@ export const projects : UniversityProject[] = [
         titulo: "Sistema operativo en entorno linux con C",
         curso: "Sistemas Operativos",
         descripcion: "plataforma distribuida que simula el funcionamiento de un sistema operativo, enfocándose en la planificación de procesos, gestión de memoria virtual y un sistema de archivos persistente. ",
-        techStack: ["Express.js" , "React" , "Tailwind" , "Node.js" , "MongoDB" , "Render" , "Vercel"],
+        techStack: ["C" , "Linux"],
         githubUrl: "https://github.com/Santibouvet/Master-of-Files",
         seCompleto: true
     },
@@ -37,7 +37,7 @@ export const projects : UniversityProject[] = [
         titulo: "Chess Royale",
         curso: "Paradigmas de la Programación",
         descripcion: "Juego desarrollado en wollok donde aplicamos varios conceptos del paradigma orientado a objetos, como el polimorfismo entre distintas clases u objetos, la idea de que todo es un objeto, incluidas las funciones, y la herencia entre clases. ",
-        techStack: ["C" , "Linux"],
+        techStack: ["Wollok"],
         githubUrl: "https://github.com/Santibouvet/Juego-en-Wollok",
         seCompleto: true
     }
